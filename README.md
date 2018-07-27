@@ -17,12 +17,14 @@ For retraining see: https://github.com/thtrieu/darkflow
 #Label_image
 
 Anaylzes images in the specified paths.Creates annotation files if image got a result greater than treshold otherwise deletes the image.
+
 NOTE : Set options values according to your model before running. Set model to your configure file. 
        Set load to number of last .profile file in ckpt folder.
 
 #Verify
 
 Gets images from specified folder and runs model on them.Shows result on an opencv window. Press any key to run next image.
+
 NOTE : Set options values according to your model before running.
 
 #Xml_bounds_test
